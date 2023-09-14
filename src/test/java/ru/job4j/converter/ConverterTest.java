@@ -15,9 +15,9 @@ class ConverterTest {
     }
 
     @Test
-    void whenConvert140RblThen2dot3333Dollar() {
+    void whenConvert140RblThen2delta3333Dollar() {
         float in = 140;
-        float expected = 2.3333333f;
+        float expected = 2.3333f;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
