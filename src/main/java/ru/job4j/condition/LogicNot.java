@@ -27,11 +27,11 @@ public class LogicNot {
     }
 
     public static void main(String[] args) {
-        System.out.println(isEven(10));
-        System.out.println(isPositive(10));
-        System.out.println(notEven(10));
-        System.out.println(notPositive(10));
-        System.out.println(notEvenAndPositive(10));
-        System.out.println(evenOrNotPositive(10));
+        System.out.println(isEven(1));
+        System.out.println(isPositive(1));
+        System.out.println(notEven(1));
+        System.out.println(notPositive(1));
+        System.out.println(notEvenAndPositive(1));
+        System.out.println(evenOrNotPositive(1));
     }
 }
