@@ -25,4 +25,13 @@ public class LogicNot {
     public static boolean evenOrNotPositive(int num) {
         return isEven(num) || notPositive(num);
     }
+
+    public static void main(String[] args) {
+        System.out.println(isEven(10));
+        System.out.println(isPositive(10));
+        System.out.println(notEven(10));
+        System.out.println(notPositive(10));
+        System.out.println(notEvenAndPositive(10));
+        System.out.println(evenOrNotPositive(10));
+    }
 }
