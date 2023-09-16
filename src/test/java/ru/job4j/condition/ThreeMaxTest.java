@@ -73,4 +73,14 @@ class ThreeMaxTest {
         int expected = 100;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void firstEqThirdAndSecondMax() {
+        int first = 1;
+        int second = 10;
+        int third = 1;
+        int result = ThreeMax.max(first, second, third);
+        int expected = 10;
+        assertThat(result).isEqualTo(expected);
+    }
 }
